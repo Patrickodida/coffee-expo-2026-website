@@ -309,3 +309,19 @@ footer {
     border-top: 4px solid #B8860B;
     font-size: 0.9rem;
 }
+
+/* Small screens */
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .speaker-card {
+        flex: 0 0 100%;
+    }
+}
