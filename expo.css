@@ -115,3 +115,30 @@ main {
 .page-title p {
     color: #E3B84B;
 }
+
+/* Sections */
+.section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 45px 20px;
+}
+
+.section h2 {
+    color: #4E2D1E;
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 4px;
+    background: #B8860B;
+    margin: 10px auto 0;
+}
+
+.overview p {
+    margin-bottom: 15px;
+}
