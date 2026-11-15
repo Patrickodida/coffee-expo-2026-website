@@ -142,3 +142,24 @@ main {
 .overview p {
     margin-bottom: 15px;
 }
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #4E2D1E;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px 34px;
+    border-radius: 6px;
+    border-bottom: 4px solid #B8860B;
+}
+
+.btn:hover {
+    background: #6B3F2A;
+}
+
+.btn-wrap {
+    text-align: center;
+    margin-top: 25px;
+}
