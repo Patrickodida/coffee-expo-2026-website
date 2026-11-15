@@ -274,3 +274,38 @@ tbody tr:nth-child(even) td {
     font-weight: bold;
     margin-bottom: 8px;
 }
+
+/* Call for papers */
+.cfp p {
+    margin-bottom: 15px;
+}
+
+.cfp h3 {
+    color: #4E2D1E;
+    margin: 25px 0 12px;
+}
+
+.status-done {
+    color: #2E7D32;
+    font-weight: bold;
+}
+
+.status-open {
+    color: #C75B00;
+    font-weight: bold;
+}
+
+.status-soon {
+    color: #6B5E55;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background: #4E2D1E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 22px 20px;
+    border-top: 4px solid #B8860B;
+    font-size: 0.9rem;
+}
