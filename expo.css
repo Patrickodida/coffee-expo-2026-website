@@ -193,3 +193,35 @@ main {
     font-weight: bold;
     color: #4E2D1E;
 }
+
+/* Tables */
+.table-wrap {
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #FFFFFF;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    border: 1px solid #E2D5C3;
+    text-align: left;
+}
+
+thead th {
+    background: #4E2D1E;
+    color: #FFFFFF;
+}
+
+tbody tr:nth-child(odd) td {
+    background: #FFFFFF;
+}
+
+tbody tr:nth-child(even) td {
+    background: #FAF5EC;
+}
